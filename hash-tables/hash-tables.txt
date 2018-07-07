@@ -1,0 +1,10 @@
+
+/* Hash tables are a common data structure for storing key value pairs*/
+
+How hash tables work
+
+At the core of a hash table is an array of roughly similar size to the number of key-value pairs stored in the hash table.
+
+Each index in the array is called a bucket (or entry, or slot) and stores any number of key-value pairs. A bucket may not have any key-value pairs in it, or all key-value pairs in the hash table may be in the same bucket. But the goal is to equally distribute key-value pairs across the buckets.
+
+The key of a key-value pair decides what bucket it should be stored in. First, the key is converted to a number using a hash function:

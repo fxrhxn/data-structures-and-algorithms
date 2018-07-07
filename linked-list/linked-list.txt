@@ -1,0 +1,19 @@
+
+
+A linked list is a data structure consisted of nodes pointing to each other.
+
+A Linked List, that as its name says, is a linked list of nodes that are represents by a head that is the first node in the list and the tail that is the last one. Each node has a reference/pointer to the previous and the next node.
+
+The linked list data structure have two types, the first one is single linked list, the nodes of this type have a pointer to the next one but not for their previous node.
+
+In this article we are going to explore the Doubly Linked List, that the nodes have a next and previous pointer (head has a next pointer but not previous and the tail node has a prev pointer but not a next one).
+
+Advantages:
+Although a linked list is similar to an array, it is not restricted to a declared number of elements. Additionally, unlike an array which stores data contiguously in memory or on disk, a linked list can easily insert or remove elements without reallocation or reorganization of the entire structure because the data items need not be stored contiguously.
+
+Linked List Drawbacks:
+1) Random access is not allowed. We must access nodes sequentially starting from the first one. Therefore, we cannot do a binary search on a linked list. So for searching element is slow.
+
+2) Extra memory space for a link is required for each element of the list.
+
+The linked list data structure is often used to implement other data structures.
