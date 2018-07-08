@@ -1,4 +1,4 @@
-# Triplebyte topics.
+# Interview topics.
 
 * Hash tables
 * Linked lists
