@@ -1,0 +1,25 @@
+Breadth first search.
+
+
+Traverse through top node.
+Then each children node.
+
+
+The two most common methods of searching a graph or a tree are depth first search and breadth first search.
+
+Whether to use a depth first search or a breadth first search should be determined by the type of data that is contained in your tree or graph data structure.
+
+In a breadth first search you will start at the root node. You will then search all their children nodes moving from left to right. Once all the children nodes have been searched, the process is repeated on the level below the root node.
+
+This process is repeated on each level until you reach the end of the tree or you reach the node that you were searching for initially.
+
+To implement a breadth first search you need some way of keeping track of what nodes you need to search next once you complete searching on the current level.
+
+To keep track of the nodes that need to be searched next you will use a queue as an intermediary step in the search. A queue is a FIFO (first in first out) array.
+
+To demonstrate how this works let me walk you through doing the search of  Level 1 and Level 2 in the image above.
+
+The first node to be searched is the root node or Node A. You would put Node A as the first element in your queue. You will then repeat these steps until your queue is empty.
+
+
+One Queue holds the node, and searches. The other array holds it after the search is done.

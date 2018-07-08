@@ -67,4 +67,5 @@ HashTable.prototype.get = function(lookupKey){
 
 var dict = new HashTable();
 dict.set("PI", 3.14)
+
 console.log(dict.get("PI"))

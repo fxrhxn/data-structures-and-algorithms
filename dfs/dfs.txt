@@ -1,0 +1,2 @@
+
+Traverse through left subtree first, then traverse through the right subtree.
