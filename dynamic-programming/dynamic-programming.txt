@@ -1,0 +1,7 @@
+The purpose of this article is to give a first approach to dynamic programming, also known as dynamic optimization, a technique used for solving complex operations by dividing them into various smaller problems, and solving each of them only once.
+
+Imagine you have to go from your house (point A) to your work (point B) using a map of the streets of your town. It can be really tedious and tiring to do that considering the different streets combinations you can have between those two places. Now also consider that you’re probably going to do that operation every day, because you need to get to your office every morning, everyone has a preferred way to do it. So you search once for the best way to go there, and then you remember it, imagine how tedious it can get to have to search for the same path everyday! This is what dynamic programming allows us to achieve.
+
+In more technical words, if I have to do 2+2, and then I have to do the same operation again, the first time I have to calculate the sum operation for parameters 2 and 2, I store the solution for the specific operation and those specific parameters so the next time I need to execute it, it doesn’t have to go through all the calculation process, it just returns what was previously stored.
+
+By using a data structure that contains as many dimensions as the function’s arity we can have direct access to the solutions previously calculated without the need of spending resources again on the same operation.

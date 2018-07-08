@@ -1,0 +1,10 @@
+“What is Big O Notation?” that is a very common job interview question for developers. In short, it is the mathematical expression of how long an algorithm takes to run depending on how long is the input, usually talking about the worst case scenario.
+
+In practice, we use Big O Notation to classify algorithms by how they respond to changes in input size, so algorithms with the same growth rate are represented with the same Big O Notation. The letter O is used because the rate of growth of a function is also called order of the function.
+
+Why is important to know this? Knowing Big O helps and facilitates developers being aware of the efficiency of an algorithm so they can create applications with good performance.
+It is usually acceptable that your first version of an algorithm is not the most efficient solution but the fastest to code, assuming it will be replaced for a more efficient one in future versions. This is a very common practice in agile development, especially in test-driven-development.
+
+Sometimes we want to focus on using less memory instead of (or in addition to) using less time (iterations) and usually there’s a trade-off between saving time and saving space. You can also see this kind of balance between saving read time and saving disk space, or when comparing relational (normalized) and non-relational (denormalized) databases.
+
+Let’s now explore the most common types of Big O Notations, we will be using JavaScript (ECMA6) as our reference language but the same principle applies to any other.
