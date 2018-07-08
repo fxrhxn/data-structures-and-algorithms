@@ -1,0 +1,5 @@
+
+
+Like a 1D array, a 2D array is a collection of data cells, all of the same type, which can be given a single name. However, a 2D array is organized as a matrix with a number of rows and columns.
+
+So a 2d Array is basically a matrix.
